@@ -8,7 +8,100 @@
       name="description"
       content="4th of 5 projects for earning freeCodeCamp's Responsive Web Design Certificate"
     />
+    <link rel="stylesheet" href="styles.css" />
     <title>Product Landing Page - freeCodeCamp Project</title>
   </head>
-  <body></body>
+  <body>
+    <header id="header">
+      <img
+        id="header-img"
+        width="64"
+        height="64"
+        src="https://img.icons8.com/external-linector-flat-linector/64/external-katana-japan-linector-flat-linector.png"
+        alt="external-katana-japan-linector-flat-linector"
+      />
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#wado-ichimonji" class="nav-link">Wado Ichimonji</a></li>
+          <li><a href="#kitetsu" class="nav-link">Kitetsu III</a></li>
+          <li><a href="#enma" class="nav-link">Enma</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <h1>Roronoa Zoro's Three-Sword Style in action:</h1>
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/J2AI8yD5hs0?si=FhswuoZVulKSFFJC"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <hr />
+      <section id="swords">
+        <div id="kitetsu" class="sword">
+          <h2>Kitetsu III</h2>
+          <p class="price">$ 1,000,000</p>
+          <p class="description">
+            The
+            <strong>Sandai Kitetsu</strong>
+            is one of the Grade swords. Like all of its predecessor Kitetsu
+            swords, this one is said to be a
+            <strong>"Cursed Sword/Blade".</strong>
+            It is one of Kozuki Sukiyaki's creations.
+          </p>
+        </div>
+        <div id="wado-ichimonji" class="sword">
+          <h2>Wado Ichimonji</h2>
+          <p class="price">$ 10,000,000</p>
+          <p class="description">
+            The
+            <strong>Wado Ichimonji</strong>
+            is a sword of great personal importance to Roronoa Zoro. It was
+            forged by Shimotsuki Kozaburo and was once a prized heirloom of his
+            family. It is also one of the 21 Great Grade swords.[1] After the
+            death of its previous owner, Kuina, Zoro asked for it from her
+            father, who then gave the sword to him.
+          </p>
+        </div>
+        <div id="enma" class="sword">
+          <h2>Enma</h2>
+          <p class="price infinity">&infin;</p>
+          <p class="description">
+            <strong>Enma</strong>
+            is one of the 21 Great Grade swords, currently in the possession of
+            Roronoa Zoro as one of his three blades.[2] The sword was crafted by
+            the swordsmith, Shimotsuki Kozaburo in the Wano Country. Until 20
+            years ago, Enma was wielded by Kozuki Oden alongside his other
+            sword, Ame no Habakiri. In Oden's hands, both blades became the only
+            weapons known to ever (until the present day) injure Kaidou
+          </p>
+        </div>
+      </section>
+      <hr />
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <label for="email">
+          Email
+
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+        </label>
+        <input
+          type="submit"
+          value="Submit"
+          id="submit"
+          formaction="https://www.freecodecamp.com/email-submit"
+        />
+      </form>
+    </main>
+  </body>
 </html>
